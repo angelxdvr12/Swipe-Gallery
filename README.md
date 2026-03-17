@@ -39,7 +39,7 @@ Para compilar y ejecutar este proyecto, necesitas instalar **Flutter** y **Andro
 ## 🚀 Instalación y Ejecución
 Sigue estos pasos en tu terminal para correr la aplicación:
 
-##1. Clonar el repositorio
+## 1. Clonar el repositorio
 bash```
 git clone https://github.com/angelxdvr12/galeria_swipe_app.git
 cd galeria_swipe_app
