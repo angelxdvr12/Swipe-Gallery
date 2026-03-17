@@ -39,26 +39,23 @@ Para compilar y ejecutar este proyecto, necesitas instalar **Flutter** y **Andro
 ## 🚀 Instalación y Ejecución
 Sigue estos pasos en tu terminal para correr la aplicación:
 
-1. Clonar el repositorio
-bash```
-git clone https://github.com/angelxdvr12/galeria_swipe_app.git
-cd galeria_swipe_app```
+## 1. Clonar el repositorio
+bash```git clone https://github.com/angelxdvr12/galeria_swipe_app.git```
+bash```cd galeria_swipe_app```
 
 
-3. Descargar dependencias
+## 2. Descargar dependencias
 Instala las librerías necesarias (photo_manager, etc.):
 bash```
 flutter pub get```
 
-5. Ejecutar la aplicación
+## 3. Ejecutar la aplicación
 Asegúrate de tener un emulador abierto o un dispositivo físico conectado.
-bash```
-flutter run```
+bash```flutter run```
 
 ⚠️ Nota sobre el Motor Gráfico (Emuladores API 35+):
 Si el emulador cierra la app de forma inesperada al conceder los permisos de la galería, ejecuta la aplicación desactivando el motor gráfico experimental (Impeller) con este comando:
-bash```
-flutter run --no-enable-impeller```
+bash```flutter run --no-enable-impeller```
 
 📱 Uso y Pruebas
 1. Al abrir la app, acepta los permisos de almacenamiento.
