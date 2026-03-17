@@ -48,17 +48,17 @@ cd galeria_swipe_app```
 ## 2. Descargar dependencias
 Instala las librerías necesarias (photo_manager, etc.):
 bash```
-flutter pub get```
+flutter pub get
 
 ## 3. Ejecutar la aplicación
 Asegúrate de tener un emulador abierto o un dispositivo físico conectado.
 bash```
-flutter run```
+flutter run
 
 ⚠️ Nota sobre el Motor Gráfico (Emuladores API 35+):
 Si el emulador cierra la app de forma inesperada al conceder los permisos de la galería, ejecuta la aplicación desactivando el motor gráfico experimental (Impeller) con este comando:
 bash```
-flutter run --no-enable-impeller```
+flutter run --no-enable-impeller
 
 📱 Uso y Pruebas
 1. Al abrir la app, acepta los permisos de almacenamiento.
