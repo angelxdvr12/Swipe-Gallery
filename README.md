@@ -43,22 +43,22 @@ Sigue estos pasos en tu terminal para correr la aplicación:
 ### 1. Clonar el repositorio
 ```bash
 git clone https://github.com/angelxdvr12/galeria_swipe_app.git
-cd galeria_swipe_app
-(Nota: Reemplaza TU_USUARIO con tu nombre de usuario de GitHub).
+cd galeria_swipe_app```
+
 
 2. Descargar dependencias
 Instala las librerías necesarias (photo_manager, etc.):
-Bash
-flutter pub get
+```Bash
+flutter pub get```
 
 3. Ejecutar la aplicación
 Asegúrate de tener un emulador abierto o un dispositivo físico conectado.
-Bash
-flutter run
+```Bash
+flutter run```
 ⚠️ Nota sobre el Motor Gráfico (Emuladores API 35+):
 Si el emulador cierra la app de forma inesperada al conceder los permisos de la galería, ejecuta la aplicación desactivando el motor gráfico experimental (Impeller) con este comando:
-Bash
-flutter run --no-enable-impeller
+```Bash
+flutter run --no-enable-impeller```
 
 📱 Uso y Pruebas
 1. Al abrir la app, acepta los permisos de almacenamiento.
